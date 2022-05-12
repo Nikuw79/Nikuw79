@@ -5,3 +5,10 @@ s = n + 1
 print ('O antecessor de {} é {} , e o sucessor é {}.'.format(n, a , s))
 #n = int(input('Digite um número :'))
 #print ('O antecessor de {} é {} , e o sucessor é {}.'.format(n, (n-1) , (n+1) ))
+#Ex7 O Dobro , Tripo e Raiz quadrada de um número
+n = int(input('Digite um número:'))
+d = n * 2
+t = n * 3
+rq = n ** (1/2)
+print ('o dobro de {} é {},\no triplo é {}\na raiz quadrada  é {}'.format(n , d , t , rq))
+#print ('o dobro de {} é {},\n o triplo é {} \n a raiz quadrada  é {}'.format(n, (n*2) , (n*3) , (n ** (1/2)) ))
